@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+        body {
+            background: url('file:///C:/Users/Rishab/Desktop/project%20done/portfolio/background.jpg');
+            color: white;
+        }
+
+
+        .profile-picture {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
+            border-radius: 50%;
+            margin-top: 70px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            margin-left: 45%;
+        }
+
+        .profile-picture img {
+            position: absolute;
+            top: -45px;
+            left: -20px;
+            width: 141%;
+            height: 277%;
+            object-fit: cover;
+        }
+
+        #aboutme {
+            padding: 10%;
+        }
+
+        #educationbox {
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        #skills {
+            display: flex;
+            flex-direction: row;
+            margin-left: 7%;
+
+
+        }
+
+        #skills-1 {
+            display: flex;
+            flex-direction: row;
+            margin-left: 7%;
+        }
+
+
+        h1 {
+
+            display: flex;
+            align-items: center;
+            margin-top: 10%;
+            margin-bottom: 5%;
+            margin-left: 40%;
+
+        }
+
+        .card-body {
+            color: rgb(244, 244, 244);
+            text-align: center;
+            font-weight: bolder;
+            background-color: rgb(15, 175, 90);
+            font-weight: bolder;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: larger;
+
+
+
+
+
+
+        }
+
+        .card {
+            background-color: none;
+
+        }
+
+        .card-body:hover {
+            cursor: pointer;
+            color: black;
+            background-color: white;
+
+            border: navajowhite;
+            
+
+        }
+
+        .navbar {
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: space-evenly;
+            color: black;
+            position: initial;
+        }
+
+        h3 {
+            margin: 3%;
+        }
+
+        h5 {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: larger;
+        }
+
+        .navfont {
+            color: rgb(0, 22, 148);
+            font-size: x-large;
+            font-weight: 600;
+
+        }
+
+        #n1 {
+            color: black;
+            font-size: large;
+            font-weight: 600;
+            font-display: inherit;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light   ">
+        <a class="navbar-brand" href="#rishabh">
+            <div class=" navfont"> Rishabh Singh</div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#aboutme" id="n1"> About Me <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#myeducation" id="n1">My Qualifaction <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#skills-2" id="n1">My skills <span class="sr-only">(current)</span></a>
+                </li>
+
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false" id="n1">
+                        My Projects
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#Contacts-me" id="n1">Contact Me<span class="sr-only">(current)</span></a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="text-center">
+        <div class="content">
+            <div class="profile-picture" id="rishabh">
+                <img src="file:///C:/Users/Rishab/Desktop/project%20done/portfolio/profile.jpg">
+            </div>
+        </div>
+
+        <h2>Hey! I am <b> Rishabh Singh</b> </h2>
+        <div class="center">
+            <h3>
+                Passionate <b>Front-End WebDeveloper</b>.
+
+                I am Pre-final Year B.Tech in Electronic and Communication Engineering Graduate at Deenbandhu Chotu Ram
+                University
+                of Science and Technology, Murthal .
+                Competitive Programmer,Quick Learner, Problem solver.
+            </h3>
+        </div>
+    </div>
+    <div class="aboutme" id="aboutme">
+        <h1> About Me </h1>
+        <h2> My Introduction </h2>
+        <h4>
+            I am a Pre-Final year B.Tech in Electronics and Communication Engineering Graduate at Deenbandhu Chotu Ram
+            University of Science and Technology .
+
+            Motivated learner with Curiosity and a passion for professional development.Highly organised with strong
+            Time management skills. Problem solver with a Practical Mindset.
+        </h4>
+    </div>
+    <h1 id="myeducation"> My Education</h1>
+    <div id="educationbox">
+        <div class="card" style="width: 18rem; margin-left: 10%;">
+
+            <div class="card-body" style="background-color: crimson;">
+                <h5 class="card-title">B-tech Ece </h5>
+                <p class="card-text">2021-2025</p>
+
+                <p class="card-text"> Dcrust, Murthal</p>
+
+                <p class="card-text"> CGPA: 8.00</p>
+
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; margin-left: 10%;">
+
+            <div class="card-body">
+                <h5 class="card-title">12th Class </h5>
+
+                <p class="card-text"> 2020</p>
+
+                <p class="card-text"> Rawal Public School</p>
+
+                <p class="card-text"> Percentage: 90%</p>
+
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem; margin-left: 10%;">
+
+            <div class="card-body" style="background-color: crimson;>
+                <h5 class="card-title">10th Class </h5>
+
+                <p class="card-text"> 2018</p>
+
+                <p class="card-text"> Rawal Public School</p>
+
+                <p class="card-text"> Percentage: 83%</p>
+
+            </div>
+        </div>
+
+        
+    </div>
+
+    <h1 id="skills-2"> My Skills</h1>
+    <div id="skills">
+        <div class="card" style="width: 18rem; margin: 5%;">
+
+            <div class="card-body" style="background-color: crimson;">
+                <h5 class="card-title">HTML</h5>
+
+                <p class="card-text"> Level-Intermediate</p>
+
+
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; margin: 5%;">
+
+            <div class="card-body">
+                <h5 class="card-title">CSS </h5>
+
+                <p class="card-text"> Level-Intermediate</p>
+
+
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; margin: 5%;">
+
+            <div class="card-body" style="background-color: crimson;">
+                <h5 class="card-title">JAVASCRIPT</h5>
+
+                <p class="card-text"> Level-Beginner</p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div id="skills-1">
+        <div class="card" style="width: 18rem; margin: 5%;">
+
+            <div class="card-body">
+                <h5 class="card-title">BOOTSTRAP</h5>
+
+                <p class="card-text"> Level-Intermediate</p>
+
+
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; margin: 5%;">
+
+            <div class="card-body" style="background-color: crimson;">
+                <h5 class="card-title">C</h5>
+
+                <p class="card-text"> Level-Intermediate</p>
+
+
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; margin: 5%;">
+
+            <div class="card-body">
+                <h5 class="card-title">C++</h5>
+
+                <p class="card-text"> Level-Intermediate</p>
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <h1> My Projects</h1>
+    <div id="educationbox">
+        <div class="card" style="width: 18rem; margin-left: 10%;">
+
+            <div class="card-body" style=background-color:grey;">
+                <h5 class="card-title">Upcoming </h5>
+                <p class="card-text">..... </p>
+
+                <p class="card-text"> </p>
+
+                <p class="card-text"> </p>
+
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; margin-left: 10%;">
+
+            <div class="card-body" style="background-color:grey;">
+                <h5 class="card-title">Upcoming </h5>
+
+                <p class="card-text"> .....</p>
+
+                <p class="card-text"> </p>
+
+                <p class="card-text"> </p>
+
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem; margin-left: 10%;  ">
+
+            <div class="card-body" ; style=background-color:grey;>
+                <h5 class="card-title"> Upcoming </h5>
+
+                <p class="card-text"> ..... </p>
+
+                <p class="card-text"> </p>
+
+                <p class="card-text"> </p>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form" id="Contacts-me">
+        <h1 id="h1">For Contacts</h1>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" style="width:  1300px; height: 30px;">
+            <input type="email" name="email" placeholder="Your Email" style="width: 1300px; height: 30px;">
+            <textarea name="message" placeholder="Your Message" dir="ltr"
+                style="width: 1300px; height: 173px;"></textarea>
+            <input type="submit" value="Send" style="width: 1307px; height: 30px;">
+        </form>
+    </div>
+    <footer>
+        <div class="footer-left">
+            <p>&copy;
+            <h2>Rishabh Singh </h2>
+            </p>
+            <p> An engineering enthusiast </p>
+        </div>
+
+
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"> </script>
+        <script>  
+            // Add a class to the body to show the page content after a delay of 2 seconds
+            setTimeout(() => {
+                document.body.classList.add('show-content');
+            }, 2000);
+        </script> 
+</body>
+
+</html>
